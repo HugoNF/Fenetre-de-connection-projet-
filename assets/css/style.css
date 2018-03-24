@@ -28,6 +28,8 @@ img {
     transform: translateY(-25%);
     z-index: 999;
     border-radius: 5px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.61);
+    border: solid rgba(159, 167, 255, 0.71) 3px;
 }
 
 .navbar{
