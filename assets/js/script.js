@@ -2,7 +2,7 @@ $(function () {
     $('.connection').click(function () {
         $('.connectinterface').remove();
         $('.vide').append(`<div class="connectinterface">
-    <span class="croix" onclick="fermer()">X</span><br>
+    <span class="croix" onclick="fermer()"><i class="fa fa-times-circle"></i></span><br>
     <form id="contact-form" method="post" action="" class="contact-form form">
                   <div class="controls">
                     <div class="row">
