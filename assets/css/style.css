@@ -1,0 +1,64 @@
+main {
+    padding: 0 !important;
+}
+
+textarea {
+    border-radius: 10px;
+
+}
+textarea:hover{
+    box-shadow: 0 0 10px red;
+}
+.vide {
+    height: 100vh;
+    padding: 0 !important;
+    background: #863a00;
+
+}
+img {
+    max-width: 100%;
+}
+.connectinterface {
+    width: 300px;
+    height: 250px;
+    background: rgba(159, 167, 255, 0.67);
+    position: relative;
+    top: 20%;
+    left: 35%;
+    transform: translateY(-25%);
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.navbar{
+    background-color: rgba(159, 167, 255, 0.67);
+    max-height: 50px;
+    margin-bottom: 0;
+}
+
+nav a {
+    color: orangered;
+    line-height: 45px;
+    float: right;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+
+nav a{
+    margin-right: 5px;
+}
+
+.croix{
+    float: right;
+    margin-right: 5px;
+}
+
+.croix:hover{
+    cursor: pointer;
+}
+
+#contact-form input{
+    padding: 5px;
+}
